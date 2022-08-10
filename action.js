@@ -1,4 +1,3 @@
-
 const captureBtn = document.getElementById("captureBtn");
 
 function ID(id){
