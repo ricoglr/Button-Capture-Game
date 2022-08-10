@@ -7,10 +7,8 @@ function ID(id){
 }
 
 
-
 var point = 1000;
 ID("scoreScreen").innerText = point;
-
 
 
 captureBtn.addEventListener("mouseover",(x,y)=>{
@@ -34,7 +32,6 @@ captureBtn.addEventListener("click", ()=>{
     ID("lose").style.display = "flex";
     ID("loseScore").innerText ="Congratulations : "+ point;
 })
-
 
 
  ID("loseBtn").addEventListener("click", ()=>{
